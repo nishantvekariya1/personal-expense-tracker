@@ -1,0 +1,142 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+}
+
+h1,
+h2,
+p {
+    text-align: center;
+    margin: 0;
+    padding: 10px;
+}
+
+.container {
+    text-align: center;
+    width: 90%;
+    max-width: 600px;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 10px 0;
+    font-size: 16px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.exit-button {
+    margin-top: 20px;
+    background-color: #f44336;
+}
+
+.exit-button:hover {
+    background-color: #d32f2f;
+}
+
+.home-buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+    text-align: left;
+}
+
+th,
+td {
+    padding: 10px;
+    border: 1px solid white;
+    width: 200px
+}
+
+th {
+    background-color: #333;
+}
+
+td {
+    background-color: #444;
+}
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+.add-expense-form {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    width: 100%;
+    max-width: 400px;
+    gap: 10px;
+}
+
+.add-expense-form label {
+    text-align: left;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.add-expense-form input,
+.add-expense-form textarea,
+.add-expense-form button {
+    padding: 10px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+}
+
+.add-expense-form button {
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+}
+
+.add-expense-form button:hover {
+    background-color: #0056b3;
+}
+
+.exit-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #ff0000;
+    color: white;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.exit-button:hover {
+    background-color: #cc0000;
+}

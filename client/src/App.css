@@ -1,0 +1,169 @@
+/* General styling for the whole application */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: black;
+  /* Black background for all pages */
+  color: white;
+  /* White text color for all pages */
+  display: flex;
+  justify-content: center;
+  /* Center horizontally */
+  align-items: center;
+  /* Center vertically */
+  height: 100vh;
+  overflow: hidden;
+}
+
+h1,
+h2,
+p {
+  text-align: center;
+  /* Center align all headings and paragraphs */
+  margin: 0;
+  padding: 10px;
+}
+
+.container {
+  text-align: center;
+  /* Center align all content in the container */
+  width: 90%;
+  max-width: 600px;
+}
+
+/* Buttons shared styles */
+button {
+  padding: 10px 20px;
+  margin: 10px 0;
+  /* Column-wise arrangement with vertical spacing */
+  font-size: 16px;
+  background-color: #4caf50;
+  /* Green background for buttons */
+  color: white;
+  /* White text for buttons */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+  /* Stretch buttons to full width */
+}
+
+button:hover {
+  background-color: #45a049;
+  /* Darker green on hover */
+}
+
+/* Exit button specific styling */
+.exit-button {
+  margin-top: 20px;
+  background-color: #f44336;
+  /* Red background for exit button */
+}
+
+.exit-button:hover {
+  background-color: #d32f2f;
+  /* Darker red on hover */
+}
+
+/* Home page button layout */
+.home-buttons {
+  display: flex;
+  flex-direction: column;
+  /* Stack buttons vertically */
+  justify-content: center;
+  align-items: center;
+}
+
+/* Table styling for the "View Expenses" page */
+table {
+  width: 100%;
+  /* Full width for the table */
+  margin-top: 20px;
+  border-collapse: collapse;
+  /* Remove gaps between cells */
+  text-align: left;
+  /* Align text in cells to the left */
+}
+
+th,
+td {
+  padding: 10px;
+  /* Add padding to table cells */
+  border: 1px solid white;
+  /* White borders for table cells */
+}
+
+th {
+  background-color: #333;
+  /* Dark gray background for headers */
+}
+
+td {
+  background-color: #444;
+  /* Slightly lighter gray for cells */
+}
+
+/* General container for centering all content */
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+
+/* Form styling */
+.add-expense-form {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  width: 100%;
+  max-width: 400px;
+  gap: 10px;
+}
+
+.add-expense-form label {
+  text-align: left;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.add-expense-form input,
+.add-expense-form textarea,
+.add-expense-form button {
+  padding: 10px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+}
+
+/* Button styling */
+.add-expense-form button {
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+}
+
+.add-expense-form button:hover {
+  background-color: #0056b3;
+}
+
+.exit-button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #ff0000;
+  color: white;
+  font-size: 1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.exit-button:hover {
+  background-color: #cc0000;
+}
